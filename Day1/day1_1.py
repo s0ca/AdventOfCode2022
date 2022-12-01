@@ -6,3 +6,5 @@ for elf in ('\n'.join(X)).split('\n\n'):
         fat += int(x)
     FAT.append(fat)
 print(max(FAT))
+FAT=sorted(FAT)
+print(sum(FAT[-3:))
